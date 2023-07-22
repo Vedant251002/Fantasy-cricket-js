@@ -1,0 +1,152 @@
+/* Styles for the body and page layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the Team Selection section */
+#teamChoose {
+  text-align: center;
+  margin: 30px;
+}
+
+#teamChoose h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#teamChoose label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#teamChoose input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+#teamChoose button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the Select Players section */
+#selectPlayers {
+  text-align: center;
+  margin: 30px;
+}
+
+#selectPlayers h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#selectPlayers select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#selectPlayers button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the Choose Captain and Vice Captain section */
+#chooseCap {
+  text-align: center;
+  margin: 30px;
+}
+
+#chooseCap h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#chooseCap button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Styles for the Match section */
+#match {
+  text-align: center;
+  margin: 30px;
+}
+
+.matchClass {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#match h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#match button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the Scoreboard section */
+#scoreBoard {
+  text-align: center;
+  margin: 30px;
+}
+
+#scoreBoard hr {
+  margin: 20px 0;
+}
+
+#scoreBoard h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#scoreBoard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#scoreBoard th,
+#scoreBoard td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for the Winner Team Name input */
+#winnerTeamName {
+  padding: 5px;
+}
+
+/* Additional styles */
+#team1Namedisplay {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#capName,
+#viceCapName {
+  font-weight: bold;
+}
+
+#totalTeamRuns {
+  font-weight: bold;
+}

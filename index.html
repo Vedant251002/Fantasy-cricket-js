@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+
+  </head>
+  <body>
+    <div id="teamChoose">
+      <h1>Team Selection</h1>
+      <label>Enter Team Name : </label>
+      <input type="text" id="firstTeamName" />
+      <label>Enter Team Name : </label>
+      <input type="text" id="secondTeamName" />
+      <br /><br /><br />
+      <button id="addteamsbtn">Add Teams</button>
+      <hr />
+      <br /><br /><br /><br />
+      Winner Team Name :
+      <input type="text" readonly="yes" id="winnerTeamName" />
+    </div>
+    <div id="selectPlayers" style="display: none">
+      <h3 id="team1Namedisplay"></h3>
+      <select id="displayTeam1"></select>
+      <button id="addTeam1Players">Add Players</button>
+      <br />
+      <select id="addedPlayers"></select>
+      <button id="removeBtn">Remove Player</button><br /><br />
+      <button id="submitTeamBtn">Submit Team</button>
+    </div>
+    <div id="chooseCap" style="display: none">
+      <h2>Choose Captian And Vice Captain</h2>
+      <button id="team1Btn">Team 1</button>
+      <button id="team2Btn">Team 2</button>
+      <select id="team1ChooseCap"></select
+      ><br />
+      <button id="capBtn">Captain</button><br />
+      <button id="viceCapBtn">Vice Captain</button><br />
+      <p id="capName"></p>
+      <p id="viceCapName"></p>
+      <br /><br /><br />
+
+      <button id="submitCap">Submit Captains</button>
+    </div>
+
+    <div id="match" style="display: none">
+      <div class="matchClass">
+        <div>
+          <h2 id="battingTeamName"></h2>
+          <h3 id="battingTeamFantasy"></h3>
+          <h3 id="batsmanName"></h3>
+          <p id="runsOfPlayer"></p>
+        </div>
+        <div>
+          <h2 id="bowlingTeamName"></h2>
+          <h3 id="bowlingTeamFantasy"></h3>
+          <h3 id="bowlerName"></h3>
+          <p id="resultOfPlayedBall"></p>
+        </div>
+      </div>
+      <button id="hitBtn">Hit</button>
+      <p id="totalTeamRuns"></p>
+    </div>
+    <div id="scoreBoard" style="display: none">
+      <hr />
+      <h2 id="winnerTeamDisplay"></h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Runs</th>
+          <th>Balls</th>
+          <th>Wickets</th>
+          <th>Fantasy Points</th>
+          <tbody id="winnerTeamData"></tbody>
+        </tr>
+      </table>
+      <hr />
+      <h2 id="looserTeamDisplay"></h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Runs</th>
+          <th>Balls</th>
+          <th>Wickets</th>
+          <th>Fantasy Points</th>
+          <tbody id="looserTeamData"></tbody>
+        </tr>
+      </table>
+    </div>
+    <script src="./index.js" type="module" defer></script>
+  </body>
+</html>
